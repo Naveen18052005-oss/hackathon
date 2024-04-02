@@ -1,0 +1,81 @@
+0. Write the use of the following network commands and simulate it to show its output with PDUs.
+tcpdump
+netstat
+ifconfig
+nslookup
+traceroute
+Network Commands Usage Guide
+
+This guide provides an overview of common network commands along with their proper syntax and examples of usage. The following commands are covered in this guide:
+
+1. tcpdump
+2. netstat
+3. ifconfig
+4. nslookup
+5. traceroute
+
+---
+
+1. tcpdump
+
+Syntax:
+sudo tcpdump [options]
+
+Example:
+sudo tcpdump -i eth0
+
+Description:
+The tcpdump command is used to capture and display TCP/IP packets being transmitted or received over a network interface. In the provided example, it captures packets on the eth0 interface.
+
+---
+
+2. netstat
+
+Syntax:
+netstat [options]
+
+Example:
+netstat -an
+
+Description:
+The netstat command displays network connections, routing tables, interface statistics, masquerade connections, and multicast memberships. In the provided example, it displays all active network connections.
+
+---
+
+3. ifconfig
+
+Syntax:
+ifconfig [interface]
+
+Example:
+ifconfig
+
+Description:
+The ifconfig command is used to configure, manage, and query network interface parameters. In the provided example, it displays information about all active network interfaces.
+
+---
+
+4. nslookup
+
+Syntax:
+nslookup [domain]
+
+Example:
+nslookup www.example.com
+
+Description:
+The nslookup command queries the Domain Name System (DNS) to obtain domain name or IP address mapping or for any other specific DNS record. In the provided example, it queries the DNS server to find the IP address associated with the domain name www.example.com.
+
+---
+
+5. traceroute
+
+Syntax:
+traceroute [destination]
+
+Example:
+traceroute www.google.com
+
+Description:
+The traceroute command displays the route and measures transit delays of packets across an Internet Protocol (IP) network. In the provided example, it displays the path that packets take to reach the destination host www.google.com, showing the IP addresses of each router along the way and the round-trip time (RTT) for each hop.
+

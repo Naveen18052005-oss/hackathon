@@ -1,0 +1,45 @@
+4. (b)Examine the protocol data units of Ping and Traceroute commands in a protocol analyzer
+Network Configuration Commands
+This section outlines commonly used network configuration commands in Unix/Linux and Windows environments:
+
+tcpdump / windump / Wireshark: Captures and analyzes network packets.
+netstat: Displays network connections, routing tables, and interface statistics.
+ifconfig / ipconfig: Configures and displays network interfaces.
+nslookup: Queries DNS servers to obtain domain name or IP address mapping.
+traceroute / tracert: Traces the route that packets take to reach a destination host.
+Usage
+Executing Commands:
+
+Open a terminal or command prompt.
+Execute the desired network configuration command with appropriate options.
+Interpreting Output:
+
+Analyze the output of the command to obtain relevant network information.
+Refer to documentation or online resources for command usage and interpretation.
+Protocol Analysis
+This section describes how to examine the protocol data units (PDUs) of Ping and Traceroute commands using a protocol analyzer:
+
+Prepare Environment:
+
+Install a protocol analyzer such as Wireshark or tcpdump.
+Ensure administrative privileges or appropriate permissions for capturing network traffic.
+Launch Protocol Analyzer:
+
+Open the protocol analyzer application.
+Start Capture:
+
+Begin capturing packets on the network interface.
+Execute Commands:
+
+Execute Ping and Traceroute commands in a terminal or command prompt.
+Analyze Captured Packets:
+
+Stop the packet capture.
+Filter captured packets to focus on Ping and Traceroute traffic.
+Examine ICMP headers to view specific details such as ICMP type, code, and TTL values.
+Interpret Results:
+
+Interpret captured PDUs to understand the behavior of Ping and Traceroute commands.
+Verify reachability and round-trip time (RTT) for Ping.
+Analyze route path and hop-by-hop latency for Traceroute.
+

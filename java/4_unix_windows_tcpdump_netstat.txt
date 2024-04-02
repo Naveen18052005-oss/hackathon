@@ -1,0 +1,49 @@
+
+}
+4. (a) Demonstrate the working of following network configuration commands in respective environment - Unix / Windows (i) tcpdump (ii) netstat (iii) ifconfig / ipconfig (iv) nslookup (v) traceroute
+
+Unix/Linux Environment
+tcpdump:
+
+Description: Captures and displays TCP/IP packets on a network interface.
+Example: sudo tcpdump -i eth0 tcp port 80
+netstat:
+
+Description: Displays network connections, routing tables, interface statistics, etc.
+Example: netstat -tuln
+ifconfig:
+
+Description: Configures network interfaces and displays their configuration.
+Example: ifconfig
+nslookup:
+
+Description: Queries DNS servers to obtain domain name or IP address mapping.
+Example: nslookup example.com
+traceroute:
+
+Description: Traces the route that packets take to reach a destination host.
+Example: traceroute google.com
+Windows Environment
+windump / Wireshark (Equivalent to tcpdump):
+
+Description: Captures and analyzes network packets.
+Example: windump -i <interface>
+netstat:
+
+Description: Displays network connections, routing tables, etc.
+Example: netstat -an
+ipconfig (Equivalent to ifconfig):
+
+Description: Displays and configures TCP/IP network settings.
+Example: ipconfig /all
+nslookup:
+
+Description: Queries DNS servers to resolve DNS queries.
+Example: nslookup example.com
+tracert (Equivalent to traceroute):
+
+Description: Traces the route to a destination over the network.
+Example: tracert google.com
+These commands provide essential utilities for network configuration, troubleshooting, and monitoring in both Unix/Linux and Windows environments.
+
+
